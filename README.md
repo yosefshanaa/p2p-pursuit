@@ -351,7 +351,7 @@ manager used — never pip/venv directly), Linux/WSL2/macOS/Windows; Tk only for
 (headless works everywhere); no LLM, key or network needed for the default game.
 
 ```bash
-git clone https://github.com/yosefshanaa/final_Project && cd final_Project
+git clone https://github.com/yosefshanaa/p2p-pursuit && cd p2p-pursuit
 uv sync                     # core + dev from the lockfile
 uv sync --extra gmail       # + Google libs (only for real report sending)
 uv sync --extra llm         # + anthropic SDK (only for claude_api banter)
